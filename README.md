@@ -1,36 +1,106 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Plataforma Financeira
+Aplicativo web de gerenciamento financeiro, construído com tecnologias modernas (Next.js, React, Hono.js) para oferecer controle completo sobre suas finanças pessoais ou pequenas empresas 📊.
 
-## Getting Started
+🔎 Visão Geral
+O Finance‑Platform é um sistema robusto para registrar e analisar receitas e despesas. Inspirado no tutorial “Code With Antonio” 
+GitHub
++
+1
+GitHub
++
+1
+, o projeto oferece recursos completos para monitorar transações, importar dados, se conectar com contas bancárias e mais.
 
-First, run the development server:
+✅ Funcionalidades principais
+Dashboard financeiro interativo com gráficos personalizáveis (tipo de gráficos, filtros por conta e dados) 
+GitHub
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Tabela de transações com busca, filtros e paginação para facilitar o controle financeiro
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Formulário de inserção de transações — receitas e despesas
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Importação de CSV para atualização rápida do histórico financeiro 
+GitHub
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+API construída com Hono.js , ideal para nível back-end 
+GitHub
++
+1
+GitHub
++
+1
 
-## Learn More
+Gerenciamento de estado via TanStack React Query para sincronização eficiente 
+GitHub
 
-To learn more about Next.js, take a look at the following resources:
+Autenticação com Clerk (Core 2) para login seguro 
+GitHub
++
+1
+GitHub
++
+1
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Conexão com contas bancárias via Plaid (configuração necessária) 
+GitHub
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Monetização com Lemon Squeezy — disponibiliza planos premium 
+GitHub
 
-## Deploy on Vercel
+🛠️ Tecnologias Utilizadas
+Frontend : Next.js + React
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Backend/API : Hono.js
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Estado : Consulta React (TanStack)
+
+Autenticação : Clerk
+
+Banco de dados/ORM : você pode usar SQLite, Postgres etc.
+
+Banco bancário : integração com Plaid
+
+Pagamentos : Lemon Squeezy
+
+Importação de dados : leitura de CSV
+
+Visualização : bibliotecas de gráficos (ex: Chart.js, Recharts)
+
+🚀 Instalação e Execução
+Clonar ou repositório
+
+Instalar dependências: npm install
+Iniciar o servidor de desenvolvimento: npm run dev
+
+🔧 Configurar variáveis de ambiente:
+
+CLERK_*(para autenticação)
+
+PLAID_*(para integração bancária)
+
+LEMON_SQUEEZY_*(para planos)
+
+📂 Estrutura típica
+
+/
+├─ pages/             # Frontend Next.js
+├─ components/        # UI compartilhadas
+├─ lib/               # Configurações (Clerk, Plaid, etc.)
+├─ api/               # Rotas Hono.js (backend)
+├─ prisma/ ou db/     # Configuração de banco
+├─ public/            # Arquivos estáticos
+├─ scripts/           # Scripts auxiliares (importação CSV etc.)
+└─ README.md
+
+🎁 Próximos Passos
+Implantar em Vercel ou similar
+
+Suporte a multiusuários e equipes
+
+App móvel com React Native ou Flutter
+
+Funções analíticas e relatórios financeiros avançados
+
+## 🖼️ Preview
+
+![Preview do Finance Platform](assets/DevFince.png)
