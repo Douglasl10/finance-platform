@@ -103,4 +103,4 @@ Funções analíticas e relatórios financeiros avançados
 
 <h2> 🖼️ Preview</h2>
 
-<img src=".../assets/DevFinance.png" alt="DevFinance">
+<img src="https://github.com/Douglasl10/finance-platform/blob/master/src/assets/DevFinance.png" alt="DevFinance">
