@@ -1,7 +1,7 @@
-Plataforma Financeira
+<h1 align="center">Dev Finace</h1>
 Aplicativo web de gerenciamento financeiro, construído com tecnologias modernas (Next.js, React, Hono.js) para oferecer controle completo sobre suas finanças pessoais ou pequenas empresas 📊.
 
-🔎 Visão Geral
+<h2>🔎 Visão Geral</h2>
 O Finance‑Platform é um sistema robusto para registrar e analisar receitas e despesas. Inspirado no tutorial “Code With Antonio” 
 GitHub
 +
@@ -11,7 +11,7 @@ GitHub
 1
 , o projeto oferece recursos completos para monitorar transações, importar dados, se conectar com contas bancárias e mais.
 
-✅ Funcionalidades principais
+<h2>✅ Funcionalidades principais</h2>
 Dashboard financeiro interativo com gráficos personalizáveis (tipo de gráficos, filtros por conta e dados) 
 GitHub
 
@@ -47,7 +47,7 @@ GitHub
 Monetização com Lemon Squeezy — disponibiliza planos premium 
 GitHub
 
-🛠️ Tecnologias Utilizadas
+<h2>🛠️ Tecnologias</h2>
 Frontend : Next.js + React
 
 Backend/API : Hono.js
@@ -66,7 +66,7 @@ Importação de dados : leitura de CSV
 
 Visualização : bibliotecas de gráficos (ex: Chart.js, Recharts)
 
-🚀 Instalação e Execução
+<h2>🚀 Começando</h2>
 Clonar ou repositório
 
 Instalar dependências: npm install
@@ -80,7 +80,7 @@ PLAID_*(para integração bancária)
 
 LEMON_SQUEEZY_*(para planos)
 
-📂 Estrutura típica
+<h2>📂 Estrutura típica</h2>
 
 /
 ├─ pages/             # Frontend Next.js
@@ -92,7 +92,7 @@ LEMON_SQUEEZY_*(para planos)
 ├─ scripts/           # Scripts auxiliares (importação CSV etc.)
 └─ README.md
 
-🎁 Próximos Passos
+<h2>🎁 Próximos Passos</h2>
 Implantar em Vercel ou similar
 
 Suporte a multiusuários e equipes
@@ -101,6 +101,6 @@ App móvel com React Native ou Flutter
 
 Funções analíticas e relatórios financeiros avançados
 
-## 🖼️ Preview
+<h2> 🖼️ Preview</h2>
 
-![Preview do Finance Platform](assets/DevFince.png)
+<img src=".../assets/DevFinance.png" alt="DevFinance">
